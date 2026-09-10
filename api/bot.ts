@@ -350,8 +350,8 @@ bot.on("message:text", async (ctx) => {
   }
 });
 
-// Vercel serverless handler
-const handler = webhookCallback(bot, "next-js");
+// Vercel serverless handler (60s timeout to allow Gemini extractions to finish)
+const handler = webhookCallback(bot, "next-js", "return", 60000);
 
 export default async function (req: VercelRequest, res: VercelResponse) {
   try {
