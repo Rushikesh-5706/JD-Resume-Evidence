@@ -164,12 +164,9 @@ bot.on("message:document", async (ctx) => {
     let resumeText = "";
 
     if (fileName.endsWith(".pdf")) {
-      const { PDFParse } = await import("pdf-parse");
-      const parser = new PDFParse({ data: new Uint8Array(buffer) });
-      const result = await parser.getText();
-      resumeText = result.pages
-        .map((p: { text: string }) => p.text)
-        .join("\n");
+      const pdfParse = (await import("pdf-parse")).default;
+      const result = await pdfParse(buffer);
+      resumeText = result.text;
     } else if (fileName.endsWith(".docx") || fileName.endsWith(".doc")) {
       const mammoth = await import("mammoth");
       const result = await mammoth.extractRawText({ buffer });
