@@ -1,7 +1,7 @@
 import { GoogleGenerativeAI, SchemaType } from "@google/generative-ai";
 
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY!);
-const MODEL_NAME = "gemini-2.0-flash"; // Hardcoded to bypass 3.6-flash rate limits
+const MODEL_NAME = "gemini-1.5-flash"; // Hardcoded to bypass rate limits
 
 export { SchemaType };
 
