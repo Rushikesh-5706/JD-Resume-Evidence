@@ -67,11 +67,49 @@ export function renderScoreCard(candidate: CandidateResult): string {
 
 export function scoreCardKeyboard(): InlineKeyboard {
   return new InlineKeyboard()
+    .text("Evidence table", "intent:evidence")
     .text("Why this score?", "intent:why_score")
-    .text("Top gaps", "intent:top_gaps")
     .row()
+    .text("Top gaps", "intent:top_gaps")
     .text("Learning plan", "intent:roadmap")
+    .row()
     .text("Rank all so far", "intent:rank");
+}
+
+export function renderEvidence(candidate: CandidateResult, jdProfile: JdProfile): string {
+  const lines: string[] = [`<b>Evidence Table for ${esc(candidate.label)}</b>\n`];
+
+  candidate.evidence.forEach((ev) => {
+    const req = jdProfile.requirements.find((r) => r.id === ev.requirement_id);
+    if (!req) return;
+
+    const scoreObj = candidate.score.requirement_scores.find(
+      (s) => s.requirement_id === ev.requirement_id
+    );
+    const rawScore = scoreObj ? scoreObj.raw_score : 0;
+
+    const icon =
+      ev.status === "explicit" || ev.status === "strong_inferred"
+        ? "✅"
+        : ev.status === "missing" || ev.status === "contradicted"
+        ? "❌"
+        : "🟡";
+
+    lines.push(`${icon} <b>${esc(req.text)}</b> (Score: ${rawScore})`);
+    if (ev.quote) {
+      lines.push(`<i>"${esc(ev.quote)}"</i>`);
+    } else {
+      lines.push(`<i>Status: ${esc(ev.status)}</i>`);
+    }
+    lines.push(""); // empty line between items
+  });
+
+  // Telegram limits messages to 4096 characters.
+  const fullText = lines.join("\n").trim();
+  if (fullText.length > 4000) {
+    return fullText.substring(0, 4000) + "...\n\n<i>(Message truncated due to length limits)</i>";
+  }
+  return fullText;
 }
 
 export function renderRanking(

@@ -5,6 +5,7 @@ import {
   renderGaps,
   renderRoadmap,
   renderRanking,
+  renderEvidence,
 } from "./render";
 
 export function handleDeterministicIntent(
@@ -26,6 +27,8 @@ export function handleDeterministicIntent(
       return renderGaps(candidate);
     case "roadmap":
       return renderRoadmap(candidate);
+    case "evidence":
+      return renderEvidence(candidate, session.jd_profile);
     case "rank":
       return renderRanking(
         session.candidates,
@@ -55,6 +58,10 @@ export function detectIntent(message: string): string | null {
     msg.includes("improve")
   ) {
     return "top_gaps";
+  }
+
+  if (msg.includes("evidence") || msg.includes("quote") || msg.includes("reason")) {
+    return "evidence";
   }
 
   if (
