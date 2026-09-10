@@ -354,7 +354,7 @@ bot.on("message:text", async (ctx) => {
 });
 
 // Vercel serverless handler
-const handler = webhookCallback(bot, "http");
+const handler = webhookCallback(bot, "next-js");
 
 export default async function (req: VercelRequest, res: VercelResponse) {
   try {
