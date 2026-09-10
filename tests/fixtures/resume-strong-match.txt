@@ -1,0 +1,34 @@
+Jane Smith
+Senior Software Engineer
+jane.smith@email.com | San Francisco, CA
+
+PROFESSIONAL EXPERIENCE
+
+Senior Software Engineer | CloudScale Systems | 2019 - Present (5 years)
+- Designed and implemented a distributed microservices architecture serving 2M daily active users using Python and Java
+- Built RESTful APIs handling 50K requests per minute with comprehensive rate limiting and authentication
+- Managed PostgreSQL databases with 500GB+ of data, implementing query optimization that reduced response times by 40%
+- Deployed services on AWS using EC2, S3, and Lambda, achieving 99.95% uptime SLA
+- Implemented CI/CD pipelines using Jenkins and GitHub Actions, reducing deployment time from 2 hours to 15 minutes
+- Containerized all services with Docker and orchestrated them using Kubernetes on EKS
+- Mentored 4 junior engineers through code reviews and pair programming sessions
+
+Software Engineer | DataFlow Inc. | 2016 - 2019 (3 years)
+- Built data processing pipelines using Python and Apache Kafka handling 1M events per day
+- Designed and maintained RESTful APIs for internal tools using Flask and FastAPI
+- Worked with PostgreSQL and Redis for data storage and caching
+- Implemented infrastructure as code using Terraform for AWS resource management
+- Set up monitoring and alerting using Prometheus and Grafana
+
+EDUCATION
+Bachelor of Science in Computer Science | Stanford University | 2016
+
+SKILLS
+Python, Java, PostgreSQL, AWS (EC2, S3, Lambda), Docker, Kubernetes, Kafka, REST APIs, Terraform, CI/CD, Microservices, Redis, GraphQL, Prometheus, Grafana, Jenkins, GitHub Actions
+
+CERTIFICATIONS
+AWS Solutions Architect Associate
+
+PROJECTS
+Open Source Contribution: Contributed pagination utilities to the FastAPI framework (200+ GitHub stars)
+Distributed Task Queue: Built a custom distributed task queue in Java supporting priority scheduling and dead-letter handling

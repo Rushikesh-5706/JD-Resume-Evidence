@@ -1,0 +1,16 @@
+Sarah Park
+Recent Graduate
+sarah.park@email.com | Boston, MA
+
+EDUCATION
+Bachelor of Science in Computer Science | MIT | 2024
+
+RELEVANT COURSEWORK
+Data Structures and Algorithms, Operating Systems, Database Systems, Computer Networks, Software Engineering, Machine Learning
+
+PROJECTS
+Course Project: Built a simple web scraper using Python for a class assignment
+Hackathon: Participated in a 24-hour hackathon, built a chat application using JavaScript and Socket.io
+
+SKILLS
+Python, JavaScript, C++, HTML, CSS, Git

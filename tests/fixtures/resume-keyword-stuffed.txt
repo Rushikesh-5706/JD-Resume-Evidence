@@ -1,0 +1,6 @@
+Chris Williams
+Software Developer
+chris.w@email.com
+
+SKILLS
+Python, Java, JavaScript, TypeScript, React, Angular, Vue.js, Node.js, Express, Django, Flask, FastAPI, Spring Boot, PostgreSQL, MySQL, MongoDB, Redis, Elasticsearch, AWS, Azure, GCP, Docker, Kubernetes, Terraform, Ansible, Jenkins, GitHub Actions, CircleCI, Kafka, RabbitMQ, GraphQL, REST, gRPC, Prometheus, Grafana, Datadog, New Relic, Nginx, Apache, Linux, Git, Agile, Scrum, CI/CD, Microservices, Serverless, Machine Learning, TensorFlow, PyTorch, Pandas, NumPy

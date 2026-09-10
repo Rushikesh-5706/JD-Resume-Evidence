@@ -1,0 +1,33 @@
+Robert Chen
+Mechanical Engineer
+robert.chen@email.com | Detroit, MI
+
+PROFESSIONAL EXPERIENCE
+
+Senior Mechanical Engineer | AutoMotive Corp | 2018 - Present (6 years)
+- Designed and tested automotive suspension systems using SolidWorks and ANSYS FEA simulation
+- Led a team of 5 engineers in developing a lightweight chassis prototype that reduced vehicle weight by 12%
+- Created detailed engineering drawings and specifications following ASME Y14.5 GD&T standards
+- Managed vendor relationships for custom-machined components with tolerances under 0.001"
+- Performed stress analysis and thermal simulations for engine mount assemblies
+
+Mechanical Design Engineer | Industrial Solutions LLC | 2014 - 2018 (4 years)
+- Designed pneumatic and hydraulic systems for manufacturing equipment
+- Conducted root cause analysis on equipment failures reducing downtime by 30%
+- Prepared technical documentation and operating procedures for assembly line machinery
+- Collaborated with electrical engineers on control system integration
+
+EDUCATION
+Master of Science in Mechanical Engineering | University of Michigan | 2014
+Bachelor of Science in Mechanical Engineering | Purdue University | 2012
+
+SKILLS
+SolidWorks, ANSYS, AutoCAD, MATLAB, GD&T, FEA, CFD, 3D Printing, CNC Machining, Six Sigma Green Belt
+
+CERTIFICATIONS
+Professional Engineer (PE) License - Michigan
+Six Sigma Green Belt
+
+PROJECTS
+Electric Vehicle Prototype: Led the structural design of a Formula SAE electric vehicle chassis
+Thermal Management System: Designed a liquid cooling system for high-performance computing enclosures

@@ -1,0 +1,25 @@
+Alex Johnson
+Software Developer
+alex.johnson@email.com | Austin, TX
+
+PROFESSIONAL EXPERIENCE
+
+Junior Software Developer | WebApps Co. | 2021 - Present (3 years)
+- Developed frontend features using React and TypeScript for an e-commerce platform
+- Built REST API endpoints using Node.js and Express
+- Worked with MongoDB for data storage and retrieval
+- Participated in daily stand-ups and sprint planning meetings
+
+Intern | StartupXYZ | Summer 2020
+- Assisted in building a landing page using HTML, CSS, and JavaScript
+- Fixed bugs in the company's internal dashboard
+
+EDUCATION
+Bachelor of Science in Information Technology | University of Texas at Austin | 2021
+
+SKILLS
+JavaScript, TypeScript, React, Node.js, Express, MongoDB, HTML, CSS, Git
+
+PROJECTS
+Personal Blog: Built a personal blog using Next.js and deployed on Vercel
+Todo App: Created a task management app with React and Firebase

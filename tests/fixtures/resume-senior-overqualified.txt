@@ -1,0 +1,38 @@
+David Martinez
+Distinguished Engineer & VP of Engineering
+david.martinez@email.com | Seattle, WA
+
+PROFESSIONAL EXPERIENCE
+
+VP of Engineering | MegaTech Corp | 2018 - Present (6 years)
+- Led an engineering organization of 120+ engineers across 8 teams delivering cloud infrastructure products
+- Established company-wide engineering standards for Python and Java development
+- Drove migration of monolithic architecture to microservices on AWS, reducing infrastructure costs by 45%
+- Implemented organization-wide CI/CD practices using Jenkins and GitHub Actions
+- Managed $15M annual engineering budget and headcount planning
+
+Distinguished Engineer | CloudFirst Inc. | 2010 - 2018 (8 years)
+- Architected a multi-region distributed database system handling 10B transactions per day
+- Designed the core platform API serving 500+ internal and external clients using RESTful patterns
+- Built and deployed containerized services using Docker and Kubernetes across 3 AWS regions
+- Established PostgreSQL best practices and migration patterns adopted by all 12 product teams
+- Mentored 25+ engineers to senior and staff levels
+
+Senior Software Engineer | DataSystems | 2005 - 2010 (5 years)
+- Built real-time data pipelines using Java and Kafka processing 100M events per hour
+- Designed monitoring infrastructure using Prometheus and custom alerting
+- Led the team that built the company's first Terraform-managed AWS infrastructure
+
+Software Engineer | TechStartup | 2002 - 2005 (3 years)
+- Full-stack development using Java, Python, and PostgreSQL
+- Built REST APIs and internal tools for the engineering team
+
+EDUCATION
+Master of Science in Computer Science | Carnegie Mellon University | 2002
+Bachelor of Science in Computer Science | UC Berkeley | 2000
+
+SKILLS
+Python, Java, PostgreSQL, AWS, Docker, Kubernetes, Kafka, Terraform, Prometheus, CI/CD, Microservices, System Design, Team Leadership, Strategic Planning
+
+CERTIFICATIONS
+AWS Solutions Architect Professional

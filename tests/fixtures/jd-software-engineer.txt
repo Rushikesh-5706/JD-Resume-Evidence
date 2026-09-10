@@ -1,0 +1,26 @@
+Senior Backend Software Engineer
+
+Company: TechCorp Inc.
+Location: San Francisco, CA (Remote OK)
+
+About the Role:
+We are looking for a Senior Backend Software Engineer to join our platform team. You will design and build scalable microservices, work closely with our data team, and mentor junior engineers.
+
+Requirements:
+- Must have 5+ years of professional software engineering experience
+- Required: Strong proficiency in Python
+- Required: Strong proficiency in Java
+- Required: Experience with PostgreSQL or similar relational databases
+- Required: Experience building and deploying microservices
+- Required: Experience with AWS (EC2, S3, Lambda)
+- Must have experience with RESTful API design
+- Required: Familiarity with Docker and Kubernetes
+- Required: Bachelor's degree in Computer Science or related field
+- Must have experience with CI/CD pipelines
+
+Preferred Qualifications:
+- Experience with message queues (Kafka, RabbitMQ)
+- Familiarity with GraphQL
+- Experience with monitoring tools (Datadog, Prometheus)
+- Knowledge of infrastructure as code (Terraform)
+- Contributions to open-source projects are a plus
